@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>hehe</title>
+</head>
+<style>
+    .header, .footer{
+        background-color: #1e90ff;
+        height: 5vh;
+        border-radius: 0.5rem;
+        display: flex;
+        padding: 1em;
+
+    }
+
+    body{
+        margin: 1em;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        font-weight: bold;
+        color: white;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        min-height: 80vh;
+    }
+
+    .middle{
+        display: flex;
+        gap: 1em;
+        flex-grow: 1;
+    }
+    
+    .main{
+        background-color: #3cb371;
+        flex-grow: 3;
+        padding-left: 1em;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main p{
+        width: 100%;
+    }
+
+    .item{
+        background-color: #2f8d59;
+        border-radius: 0.5rem;
+        height: 10vh;
+        width: 10vw;
+        margin-right: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sidebar{
+        background-color: #ff6347;
+        border-radius: 0.5rem;
+        flex-grow: 1;
+        display: flex;
+        padding: 1em;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="header">header</div>
+        <div class="middle">
+            <div class="main">
+                <p>main</p>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+                <div class="item">item</div>
+            </div>
+            <div class="sidebar">sidebar</div>
+        </div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+</html>
